@@ -1,20 +1,20 @@
 // KaTeX dependency
-import katex from "katex";
+import katex from "../node_modules/katex";
 window.katex = katex;
-import "katex/dist/katex.css";
+import "../node_modules/katex/dist/katex.css";
 
 // Quill dependency
 import ReactQuill, { Quill } from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
 // MathQuill dependency
-import "./jquery";
+import "./utils/jquery";
 import "@edtr-io/mathquill/build/mathquill.js";
 import "@edtr-io/mathquill/build/mathquill.css";
 
 // mathquill4quill include
-import mathquill4quill from "mathquill4quill";
-import "mathquill4quill/mathquill4quill.css";
+import mathquill4quill from "../node_modules/mathquill4quill/mathquill4quill";
+import "../node_modules/mathquill4quill/mathquill4quill.css";
 
 // demo page
 import React from "react";
